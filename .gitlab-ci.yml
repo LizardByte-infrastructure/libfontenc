@@ -127,6 +127,7 @@ meson from tarball:
     - meson compile -C _builddir
     - meson test -C _builddir
   needs:
+    - container-prep
     - autotools
 
 compare meson and autotools:
