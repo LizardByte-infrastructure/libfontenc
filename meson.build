@@ -25,7 +25,7 @@
 project(
   'libfontenc',
   'c',
-  version: '1.1.9',
+  version: '1.1.10',
   license: 'MIT',
   license_files: 'COPYING',
   meson_version: '>= 1.1.0',
