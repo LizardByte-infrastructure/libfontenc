@@ -23,6 +23,9 @@ THE SOFTWARE.
 /* Private types and functions for the encoding code. */
 /* Used by the files `fontenc.h' and `encparse.h' */
 
+#ifndef _FONTENC_I_H
+#define _FONTENC_I_H
+
 typedef struct _FontEncSimpleMap {
     unsigned len;               /* might be 0x10000 */
     unsigned short row_size;
@@ -42,3 +45,4 @@ char *FontEncSimpleName(unsigned, void *);
 char *FontEncUndefinedName(unsigned, void *);
 
 FontEncPtr FontEncReallyLoad(const char *, const char *);
+#endif
