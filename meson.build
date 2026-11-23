@@ -100,6 +100,7 @@ lib = library(
   include_directories: 'include',
   dependencies: [dep_xproto, dep_zlib],
   version: '1.0.0',
+  darwin_versions: [ '2.0.0', '2.0.0' ],
   install: true,
 )
 
